@@ -1,0 +1,25 @@
+@import url(Fontes/Kanit-Italic.ttf);
+
+body{
+    font-family: Kanit, sans-serif;
+    margin: 0px;
+
+}
+.CabecarioHome{
+    background-color: rgb(23, 173, 35);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.TextoSite{
+    margin: 80px;
+    text-align: center;
+}
+.RodaPe{
+    background-color: rgb(23, 173, 35);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
