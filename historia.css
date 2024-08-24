@@ -68,3 +68,46 @@ p{
     width: 40%;
     height: 300px;
 }
+h2{
+    font-size: small;
+    margin: 3%;
+    margin-top: 0%;
+}
+#titulo{
+    margin: 3%;
+    font-size: 20px;
+    margin-bottom: 0%;
+}
+.mae{
+    display: flex;
+    justify-content: center;
+}
+.staff{
+    background-color: chartreuse;
+    height: 700px;
+    width: 90%;
+    display: flex;
+
+}
+.integrante{
+    display: inline;
+    height: 90%;
+    width: 90%;
+    background-color: black;
+    margin: 30px;
+    justify-items: center;    
+    
+}
+.fotointegrante{
+    
+    background-color: #fff;
+    height: 70%;
+    width: 100%;
+}
+
+.rede{
+    background-color: #fff;
+    margin: 5%;
+    height: 7%;
+    width: 7%;
+}
