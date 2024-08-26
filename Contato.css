@@ -28,22 +28,43 @@ body{
     justify-content: center;
 }
 .ConteudoCriador1{
-    background-color: black;
-    width: 80%;
+    background-color: rgb(0, 0, 0);
+    width: 60%;
     height: 400px;
     margin: 30px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
 }
-.ConteudoCriador2{
-    background-color: black;
-    width: 80%;
-    height: 400px;
-    margin: 30px;
+.Imagem{
+  background-color: red;
+  width: 30%;
+  height: 360px;
+  margin: 20px;
+  border-radius: 80%;
 }
-.ConteudoCriador3{
-    background-color: black;
-    width: 80%;
-    height: 400px;
-    margin: 30px;
+.TextoContato{
+  background-color: rgb(255, 255, 255);
+  width: 70%;
+  height: 360px;
+  margin: 20px;
+  text-align: center;
+  
+  font-size: 20px;
+  font-weight: 500;
+  color: #000000;
+}
+p{
+  margin: 10px;
+}
+.RedesContato{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.LogoRedes{
+  width: 8%;
+  margin: 0px 30px;
 }
 nav {
     &.primary-navigation {
