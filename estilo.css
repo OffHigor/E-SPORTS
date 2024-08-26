@@ -86,9 +86,9 @@ h1{
    flex-direction: row;
 }
 .Noticia1{
-    background-color: rgb(255, 0, 0);
-    width: 30%;
-    height: 400px;
+    background-image: url(Imagens/NoticiaPatrocinador.png);
+    width: 435px;
+    height: 412px;
     margin: 50px;
     border-radius: 10%;
 }
