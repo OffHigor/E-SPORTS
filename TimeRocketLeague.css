@@ -28,7 +28,7 @@ body{
     justify-content: center;
 }
 .Jogadores{
-    background-color: black;
+    background-color: #ebe9e9d3;
     width: 70%;
     height: 580px;
     display: flex;
@@ -43,10 +43,13 @@ body{
 }
 .TamanhoImagem{
     width: 100%;
+    height: 260px;
+    border-radius: 30px;
 }
 .TextoJogadores{
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
     display: flex;
     flex-direction: column;
 }
@@ -62,12 +65,16 @@ body{
     height: 500px;
     margin: 0px;
 }
+h2{
+    font-size: 50px;
+    margin: 20px 0px 0px 0px;
+}
 .Central{
     display: flex;
     justify-content: center;
 }
 .ConteudoTimes{
-    background-color: black;
+    background-color: #ebe9e9d3;
     width: 80%;
     height: 280px;
     margin: 100px;
@@ -189,4 +196,7 @@ nav {
 }
 .aba{
     padding-left: 195px;
+}
+h1{
+    font-size: 50px;
 }
