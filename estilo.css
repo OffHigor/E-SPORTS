@@ -30,24 +30,24 @@ h1{
     padding: 50px;
 }
 .AnuncioCamisa{
-    background-color: rgb(0, 0, 0);
+    background-image: url(Imagens/Camisa.jpeg);
     width: 82%;
-    height: 620px;
+    height: 700px;
     margin: 0px 180px 180px 180px;
-    border-radius: 12%;
+    border-radius: 2%;
     box-shadow: 2px 10px 50px rgba(7, 7, 7, 0.575) ;
 }
 .Patrocinios{
     background-color: rgb(255, 255, 255);
     width: 100%;
-    height: 220px;
+    height: 320px;
     margin: 100px 0px;
     display: flex;
     justify-content: space-between;
 }
 .Patrocinios1{
     width: 90%;
-    height: 200px;
+    height: 300px;
     margin: 20px;
     border-radius: 30px;
 }
@@ -63,24 +63,39 @@ h1{
    display: flex;
    flex-direction: row;
 }
+.Noticia1:hover{
+    transform: scale(1.2);
+    animation-delay: 1s;
+    cursor: pointer;
+}
+.Noticia2:hover{
+    transform: scale(1.2);
+    animation-delay: 1s;
+    cursor: pointer;
+}
+.Noticia3:hover{
+    transform: scale(1.2);
+    animation-delay: 1s;
+    cursor: pointer;
+}
 .Noticia1{
-    background-color: red;
+    background-image: url(Imagens/Noticiaclassificados.png);
     width: 440px;
     height: 412px;
     margin: 50px;
     border-radius: 10%;
 }
 .Noticia2{
-    background-color: rgb(255, 0, 0);
-    width: 30%;
-    height: 400px;
+    background-image: url(Imagens/NoticiaFinal.png);
+    width: 440px;
+    height: 412px;
     margin: 50px;
     border-radius: 10%;
 }
 .Noticia3{
-    background-color: rgb(255, 0, 0);
-    width: 30%;
-    height: 400px;
+    background-image: url(Imagens/NoticiaRocket.png);
+    width: 440px;
+    height: 412px;
     margin: 50px;
     border-radius: 10%;
 }
@@ -210,4 +225,24 @@ nav {
 }
 .aba{
     padding-left: 195px;
+}
+#pat1:hover{
+    transform: scale(1.2);
+    animation-delay: 1s;
+    cursor: pointer;
+}
+#pat2:hover{
+    transform: scale(1.2);
+    animation-delay: 1s;
+    cursor: pointer;
+}
+#pat3:hover{
+    transform: scale(1.2);
+    animation-delay: 1s;
+    cursor: pointer;
+}
+#pat4:hover{
+    transform: scale(1.2);
+    animation-delay: 1s;
+    cursor: pointer;
 }
