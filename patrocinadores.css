@@ -151,3 +151,6 @@ nav {
   display: flex;
   justify-content: center;
 }
+.patlink{
+  cursor: pointer;
+}
