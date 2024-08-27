@@ -29,58 +29,54 @@ body{
 }
 .Jogadores{
     background-color: black;
-    width: 80%;
-    height: 500px;
+    width: 60%;
+    height: 700px;
     display: flex;
     flex-direction: row;
     border-radius: 1%;
 }
-.CardsJogadores1{
-    background-color: red;
-    width: 30%;
-    height: 460px;
+.Jogadores2{
+    background-color: black;
+    width: 60%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 1%;
     margin: 20px;
-    border-radius: 4%;
 }
-.CardsJogadores2{
-    background-color: red;
-    width: 30%;
-    height: 460px;
-    margin: 20px;
-    border-radius: 4%;
+.TextoJogadores{
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
 }
-.CardsJogadores3{
-    background-color: red;
-    width: 30%;
-    height: 460px;
-    margin: 20px;
-    border-radius: 4%;
+.CantoLogo{
+    width: 8%;
 }
-.CardsJogadores4{
-    background-color: red;
-    width: 30%;
-    height: 460px;
-    margin: 20px;
-    border-radius: 4%;
+.CantoLogo1{
+    display: flex;
+    justify-content: end;
 }
-.CardsJogadores5{
-    background-color: red;
-    width: 30%;
-    height: 460px;
-    margin: 20px;
-    border-radius: 4%;
+.CardsJogadores{
+    width: 90%;
+    height: 360px;
+    margin: 10px;
+    border-radius: 30px;
 }
-
+.Central{
+    display: flex;
+    justify-content: center;
+}
 .FotoJogo{
-    width: 100%;
-    height: 500px;
+    width: 1930px;
+    height: 550px;
     margin: 0px;
 }
 .ConteudoTimes{
     background-color: black;
     width: 80%;
     height: 280px;
-    margin: 100px;
+    margin: 20px;
     border-radius: 2%;
     display: flex;
     flex-direction: row;
